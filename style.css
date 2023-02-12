@@ -1,0 +1,115 @@
+*{
+    background:#a2b1eb;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    
+}
+
+.logo{
+    padding-top: 5px;
+    margin-left: 840px;
+    width: 10%; 
+}
+
+/*titulo encriptador, centrado y en negrita*/
+
+.titulo-alura{
+    height: 16px;
+    color: #1c0b58;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 800px;
+    width: 328px;
+    padding: 20px;
+    text-transform: none;
+}
+
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    
+}
+
+/* para difinir el tamaño y color del rectángulo, donde digitará el usuario */
+
+.text-area {
+    height: 400px;
+    background: rgb(220, 219, 230);
+    border: none;
+    border-radius: 24px;
+    color: #0a0a0a;
+    margin-top: 30px;
+    padding: 20px;
+    text-transform: none;
+}
+::placeholder { color: #27233d; }
+  .text-area:focus {
+      outline: none;
+    }
+
+/* para difinir el tamaño y color del segundo rectángulo, donde semuestra y copia lo encriptado */
+
+.mensaje{
+    height: 630px;
+    background: rgb(220, 219, 230);
+    background-image: url("/imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #041d3b;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+}
+
+.informacion {
+    color: #495057;
+    font-size:18px;
+}
